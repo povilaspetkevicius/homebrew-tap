@@ -1,0 +1,18 @@
+# Povilaspetkevicius Tap
+
+## How do I install these formulae?
+
+`brew install povilaspetkevicius/tap/<formula>`
+
+Or `brew tap povilaspetkevicius/tap` and then `brew install <formula>`.
+
+Or, in a `brew bundle` `Brewfile`:
+
+```ruby
+tap "povilaspetkevicius/tap"
+brew "<formula>"
+```
+
+## Documentation
+
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
