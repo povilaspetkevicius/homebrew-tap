@@ -5,20 +5,20 @@
 class Prothought < Formula
   desc "Thought tracker with hashtag support"
   homepage "https://github.com/povilaspetkevicius/prothought"
-  version "0.1.2"
+  version "0.1.3"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/povilaspetkevicius/prothought/releases/download/v0.1.2/prothought_Darwin_x86_64.tar.gz"
-    sha256 "b04a7d76e1202a3bcd621f4636a0f34349612d3f70598726cd159fa9c95099c2"
+    url "https://github.com/povilaspetkevicius/prothought/releases/download/v0.1.3/prothought_Darwin_x86_64.tar.gz"
+    sha256 "0f84971e964cb53d30c8262cb5da437f00b9db5d4c4ec8b30a760b28a2f451df"
 
     def install
       bin.install "prothought"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/povilaspetkevicius/prothought/releases/download/v0.1.2/prothought_Darwin_arm64.tar.gz"
-    sha256 "333fdf33a9177a5e265640c4b931cb7765866f26f37a32fbf504faae617e2223"
+    url "https://github.com/povilaspetkevicius/prothought/releases/download/v0.1.3/prothought_Darwin_arm64.tar.gz"
+    sha256 "e06ee4fc55818fa90fc79cfe47a17fb3524242f412f76fcf882c476e3457040c"
 
     def install
       bin.install "prothought"
